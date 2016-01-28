@@ -35,9 +35,9 @@ protected void onCreate(Bundle savedInstanceState) {
         RelativeLayout rl = (RelativeLayout) this.findViewById(R.id.relative_view);
         Context context = rl.getContext();
         List<String> storyLines = Arrays.asList(
-                "A droid has information that will help freedom fighters. ",
-                "The droid, when it gives information, will explode on the person. ",
-                "The explosion will result in a great world of abundance: food, water, love, empathy."
+                "A droid has information that will help those working on creating a world of abundance ",
+                "The droid, releases this information like a manna machine. Bringing comfort to the people and providing knowledge. Educating them.",
+                "A great world of abundance is in the making. Technology will make it happen. Food, water, housing, security, love, empathy and knowledge. One brotherhood of man"
         );
         final HashMap<Integer, String> map = new HashMap<>();
         int prevId = R.id.hello_view;
