@@ -18,22 +18,31 @@
         android:id="@+id/editText"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="136dp" />
+        android:layout_marginTop="78dp" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Press Here"
+        android:text="New Button"
         android:id="@+id/button"
-        android:layout_centerVertical="true"
+        android:layout_below="@+id/editText"
         android:layout_centerHorizontal="true" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
         android:id="@+id/textView"
-        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@android:drawable/ic_btn_speak_now" />
 
 </RelativeLayout>

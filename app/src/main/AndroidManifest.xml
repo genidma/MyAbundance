@@ -2,6 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="college.invisible.myabundance">
 
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -18,7 +22,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".InputActivity"></activity>
+        <activity android:name=".InputActivity" />
+        <activity
+            android:name=".ImageActivity"
+            android:label="@string/title_activity_image"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SoundActivity"
+            android:label="@string/title_activity_sound"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CameraActivity"
+            android:label="@string/title_activity_camera"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
